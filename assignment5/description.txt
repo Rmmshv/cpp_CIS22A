@@ -1,0 +1,29 @@
+Write a program named "EvaluateGrade" to read in a grade letter from the user and determine whether the user has passed the course or not. It will only accept valid grade character 'A', 'B' or 'C' to have the passing grades and 'D' and 'F' for failing grades. If the user has entered any other character, the program will print out an error message of "Invalid grade letter. Please try again." and ask the next grade letter again.
+
+The program should not have multiple "return" statements. In another words, your program should not have any "return" statement in the body of the loop.
+
+Here are examples of multiple separate runs:
+
+D:\cis22a>EvaluateGrade
+Please enter your grade: A
+You have passed the course.
+
+D:\cis22a>EvaluateGrade
+Please enter your grade: F
+You did not pass the course.
+
+D:\cis22a>EvaluateGrade
+Please enter your grade: W
+Invalid grade letter. Please try again.
+Please enter your grade: X
+Invalid grade letter. Please try again.
+Please enter your grade: ?
+Invalid grade letter. Please try again.
+Please enter your grade: a
+Invalid grade letter. Please try again.
+Please enter your grade: b
+Invalid grade letter. Please try again.
+Please enter your grade: B
+You have passed the course.
+
+D:\cis22a>
