@@ -1,0 +1,63 @@
+Objectives: Solve problem and write basic C++ program
+
+Description:
+Write a purchase C++ program named “BuyItems” that performs the following tasks:
+Ask for the following info about the item to be purchased:
+- item's name
+- item's price
+- and the quantity
+
+The program will print out the invoice of the purchase with a nice format of the total + tax of 25%.
+
+Requirements:
+- The program must produce the provided expected sample output.
+- Print out the amount in the currency format with 2 decimal places
+
+Sample output of 3 separate runs:
+
+D:\>BuyItems
+
+Welcome to our store.
+Please enter the item's description: Starting Out With C++ book by Liang
+Please enter the item's price: 49.95
+Please enter the quantity: 1
+
+----------------------------------
+Invoice
+Item's description: Starting Out With C++ book by Liang
+Unit price: $49.95
+Quantity: 1
+Total: $49.95
+Tax(25%): $12.49
+Invoice Amount: $62.44
+----------------------------------
+
+
+D:\>BuyItems
+Welcome to our store.
+Please enter the item's description: 10-pencil box
+Please enter the item's price: 2.12
+Please enter the quantity: 10
+----------------------------------
+Invoice
+Item's description: 10-pencil box
+Unit price: $2.12
+Quantity: 10
+Total: $21.20
+Tax(25%): $5.30
+Invoice Amount: $26.50
+----------------------------------
+
+D:\>BuyItems
+Welcome to our store.
+Please enter the item's description: box of candy
+Please enter the item's price: 1.125
+Please enter the quantity: 5
+----------------------------------
+Invoice
+Item's description: box of candy
+Unit price: $1.13
+Quantity: 5
+Total: $5.63
+Tax(25%): $1.41
+Invoice Amount: $7.03
