@@ -1,5 +1,6 @@
 # Cpp-deAnzaCIS22A
 
-CIS22A Spring quarter.
+cis22a C++
+Spring quarter.
 
 My solutions for the assignments.
