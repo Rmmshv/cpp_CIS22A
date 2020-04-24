@@ -1,4 +1,7 @@
-Write a C++ program named "PrintShape" that will read in from the user the shape integer number (1 for triangle and 2 for square) and the character used in the printed shape. It then prints out the given shape using the given character. If the user did not enter 1 or 2 for the shape number, it will print out an error message.
+Write a C++ program named "PrintShape" that will read in from the user the shape integer
+number (1 for triangle and 2 for square) and the character used in the printed shape.
+It then prints out the given shape using the given character. If the user did not enter 1 or 2 for the shape
+number, it will print out an error message.
 
 For now, the shape can be a simple 3 lines.
 
