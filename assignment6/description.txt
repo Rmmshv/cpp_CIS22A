@@ -1,0 +1,31 @@
+Write a C++ program named "AskForThreeAscendingNumbers" that will read in from the users 3 numbers. 
+It makes sure that the 2nd number is always greater than the 1st and the 3rd number is always greater than the 2nd. 
+If it is smaller, it will print out an error message and ask the user to re-enter the number until it is greater.
+
+Once reading is complete, it will print out all 3 numbers.
+
+ 
+
+Here is an example of the run output:
+
+D:\cis22a>AskForThreeAscendingNumbers
+
+Please enter 3 numbers in the ascending order.
+Please enter 1st number: 100
+Please enter 2nd number: 50
+It is smaller than the first number. Please try again.
+Please enter 2nd number: 20
+It is smaller than the first number. Please try again.
+Please enter 2nd number: 10
+It is smaller than the first number. Please try again.
+Please enter 2nd number: 5
+It is smaller than the first number. Please try again.
+Please enter 2nd number: 200
+Please enter 3rd number: 150
+It is smaller than the second number. Please try again.
+Please enter 3rd number: 50
+It is smaller than the second number. Please try again.
+Please enter 3rd number: 190
+It is smaller than the second number. Please try again.
+Please enter 3rd number: 300
+The 3 ascending numbers are: 100 - 200 - 300
