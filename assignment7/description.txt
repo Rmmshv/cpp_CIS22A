@@ -1,0 +1,39 @@
+Write a C++ program named "GenerateWithinRange" that reads in from the user the following numbers:
+
+* How many numbers the user wants to generate
+
+* The lower limit
+
+* The upper limit
+
+It makes sure that these numbers are not negative. Then it generates that many random numbers within the user's range.
+
+
+Here is an example of the output for the given run:
+
+D:\cis22a>GenerateWithinRange
+How many numbers that you want to generate? -10
+Number cannot be negative. Please try again.
+How many numbers that you want to generate? -5
+Number cannot be negative. Please try again.
+How many numbers that you want to generate? 10
+What is the lower limit? -10
+Number cannot be negative. Please try again.
+What is the lower limit? -5
+Number cannot be negative. Please try again.
+What is the lower limit? 50
+What is the upper limit? -10
+Number cannot be negative. Please try again.
+What is the upper limit? -5
+Number cannot be negative. Please try again.
+What is the upper limit? 70
+Random number: 56
+Random number: 65
+Random number: 66
+Random number: 53
+Random number: 50
+Random number: 66
+Random number: 63
+Random number: 55
+Random number: 56
+Random number: 67
