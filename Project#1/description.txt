@@ -1,0 +1,235 @@
+Objectives:
+
+Use basic C++ constructs: if, switch, and repetition (looping)
+Perform simple data type manipulations and functions
+Solve problem, design solution and implement using C++
+Description:
+
+Write a program named “CalcTax” that calculates taxes from data provided by the user:
+
+Ask the user for the PIN code. The user must enter either 5678 or 8765 to continue with the program, otherwise exit the program and the user can try up to 3 times.
+Ask the user for W2 income amount, any interest, deduction and paid tax amount
+Calculate the actual tax amount based upon the given income and data
+Continuously ask the user to enter another set of data until the user chooses to exit the program
+Requirements:
+
+The program must produce similar output.
+The tax rate is 25% for total income that is less than or equal 10000 and 50% otherwise.
+The tax amount is calculated based upon the actual income (income + interest – deduction)
+Print out “due” or “refund” based upon the proper tax amount result
+The program must contain at least 3 more functions in addition to main() function.
+Required error handling:
+
+The program MUST perform the following checks:
+
+Case-insensitive when asking whether to continue (e.g. accepting both ‘Y’ and ‘y’)
+When asking for the paid tax amount, the amount cannot be negative or greater than the total income. If it is invalid, it should continuously ask for a new amount.
+ 
+
+Sample test data and output:
+
+D:\ >CalcTax
+
+Welcome to my tax calculation program.
+
+Please enter the PIN code: 1234
+
+Invalid pin code. Please try it again.
+
+Please enter the PIN code: 56789
+
+Invalid pin code. Please try it again.
+
+Please enter the PIN code: 2345
+
+Invalid pin code. You have reached the maximum number of retries.
+
+ 
+
+Thank you for using my program.
+
+ 
+
+D:\>CalcTax
+
+Welcome to my tax calculation program.
+
+Please enter the PIN code: 1234
+
+Invalid pin code. Please try it again.
+
+Please enter the PIN code: 2345
+
+Invalid pin code. Please try it again.
+
+Please enter the PIN code: 5678
+
+ 
+
+Please enter the amount from W2 form: 5000
+
+Please enter the interest income: 200
+
+Please enter the paid tax amount: 800
+
+Please enter the amount for deduction: 500
+
+ 
+
+Income:     $5000.00
+
+Interest:   $200.00
+
+Deduction:  $500.00
+
+Paid Tax:   $800.00
+
+Tax Amount: $1175.00
+
+------------------------
+
+Due:        $375.00
+
+ 
+
+Do you want to calculate tax for another income (y/n)? y
+
+ 
+
+Please enter the amount from W2 form: 300.50
+
+Please enter the interest income: 12.75
+
+Please enter the paid tax amount: 0
+
+Please enter the amount for deduction: 0
+
+ 
+
+Income:     $300.50
+
+Interest:   $12.75
+
+Deduction:  $0.00
+
+Paid Tax:   $0.00
+
+Tax Amount: $78.31
+
+------------------------
+
+Due:        $78.31
+
+ 
+
+Do you want to calculate tax for another income (y/n)? y
+
+ 
+
+Please enter the amount from W2 form: 2500
+
+Please enter the interest income: 0
+
+Please enter the paid tax amount: -10
+
+Invalid amount. It cannot be negative.
+
+Please enter the paid tax amount: -5
+
+Invalid amount. It cannot be negative.
+
+Please enter the paid tax amount: 5000
+
+Invalid amount. It cannot be greater than your total income.
+
+Please enter the paid tax amount: 4000
+
+Invalid amount. It cannot be greater than your total income.
+
+Please enter the paid tax amount: 2000
+
+Please enter the amount for deduction: 0
+
+ 
+
+Income:     $2500.00
+
+Interest:   $0.00
+
+Deduction:  $0.00
+
+Paid Tax:   $2000.00
+
+Tax Amount: $625.00
+
+------------------------
+
+Refund:     $1375.00
+
+ 
+
+Do you want to calculate tax for another income (y/n)? y
+
+ 
+
+Please enter the amount from W2 form: 123.4567
+
+Please enter the interest income: 33.444
+
+Please enter the paid tax amount: 55.555
+
+Please enter the amount for deduction: 6.66
+
+ 
+
+Income:     $123.46
+
+Interest:   $33.44
+
+Deduction:  $6.66
+
+Paid Tax:   $55.56
+
+Tax Amount: $37.56
+
+------------------------
+
+Refund:     $17.99
+
+ 
+
+Do you want to calculate tax for another income (y/n)? Y
+
+ 
+
+Please enter the amount from W2 form: 10000
+
+Please enter the interest income: 1
+
+Please enter the paid tax amount: 2
+
+Please enter the amount for deduction: 3.75
+
+ 
+
+Income:     $10000.00
+
+Interest:   $1.00
+
+Deduction:  $3.75
+
+Paid Tax:   $2.00
+
+Tax Amount: $2499.31
+
+------------------------
+
+Due:        $2497.31
+
+ 
+
+Do you want to calculate tax for another income (y/n)? n
+
+ 
+
+Thank you for using my program.
