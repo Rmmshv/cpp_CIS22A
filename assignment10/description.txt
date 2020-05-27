@@ -1,0 +1,13 @@
+1. Write a function named "countPositiveNegative" that accepts an array of integers, its size and return the number of
+positive and negative in the array through the use of parameters. In addition, it also returns the number of 0s in the array
+as the return value.
+For example, array of {10, 20, -30, -40, 50, 0, 60} will return 4 for positives, 2 for negatives and 1 for 0's as the
+return value.
+
+2. Write a function named "rotateRight" that accepts an array of integers and its size. It will rotate all the values to
+the right and move the value of the last element in the array to the first.
+For example, array of {10, 20, 30} will become {30, 10, 20}.
+
+3. Write a function named "countNonAlpha" that accepts a string. It will return the number of non-alphabet characters
+(excluding blanks) in the string.
+For example, if the string is "Hello, World!", it will return 2 for ',' and '!" in the string.
