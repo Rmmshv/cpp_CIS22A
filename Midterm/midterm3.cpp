@@ -40,3 +40,15 @@ int main() {
     isTheSmallestLast() ;
     return 0;
 }
+
+/*
+Write a function named "isTheSmallestLast" that reads in from the user inputs a
+list of numbers until the user enters 0. It will return true if the last number is the
+smallest number in that list and false otherwise. In addition, it also returns the
+actual value of the smallest number to the caller in the output parameter.
+For example, if the user enters 50, 30, 40, 10, 0, it will return true and 10 in the
+output parameter.
+If the user enters 50, 10, 40, 30, 0, it will return false and 10 in the output
+parameter.
+If the user enters 0 immediately, it will return false and 0 for the smallest.
+*/
