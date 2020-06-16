@@ -1,0 +1,208 @@
+D:\>TrackMyExpensesUsingArray
+Welcome to my expense tracker.
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 1
+
+There is no expense entry available.
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 2
+
+Please enter the description for the expense: Monthly telephone and Internet services
+Please enter the amount: 45.25
+AMOUNT(45.25) DESC(Monthly telephone and Internet services)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 2
+
+Please enter the description for the expense: Monthly electric, water and gas
+Please enter the amount: 200.20
+AMOUNT(200.2) DESC(Monthly electric, water and gas)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 2
+
+Please enter the description for the expense: Rent
+Please enter the amount: 1200
+AMOUNT(1200) DESC(Rent)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 2
+
+Please enter the description for the expense: Netflix membership
+Please enter the amount: 12.90
+AMOUNT(12.9) DESC(Netflix membership)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 2
+
+Please enter the description for the expense: Amazon membership
+Please enter the amount: 99
+AMOUNT(99) DESC(Amazon membership)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 2
+
+Please enter the description for the expense: Monthly gym membership
+Please enter the amount: 50
+AMOUNT(50) DESC(Monthly gym membership)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 1
+
+Expenses:
+AMOUNT(45.25) DESC(Monthly telephone and Internet services)
+AMOUNT(200.2) DESC(Monthly electric, water and gas)
+AMOUNT(1200) DESC(Rent)
+AMOUNT(12.9) DESC(Netflix membership)
+AMOUNT(99) DESC(Amazon membership)
+AMOUNT(50) DESC(Monthly gym membership)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 3
+
+Please enter the search string: membership
+AMOUNT(12.9) DESC(Netflix membership)
+AMOUNT(99) DESC(Amazon membership)
+AMOUNT(50) DESC(Monthly gym membership)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 3
+
+Please enter the search string: MEMBERSHIP
+AMOUNT(12.9) DESC(Netflix membership)
+AMOUNT(99) DESC(Amazon membership)
+AMOUNT(50) DESC(Monthly gym membership)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 4
+
+Please enter the amount: 50
+AMOUNT(200.2) DESC(Monthly electric, water and gas)
+AMOUNT(1200) DESC(Rent)
+AMOUNT(99) DESC(Amazon membership)
+AMOUNT(50) DESC(Monthly gym membership)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 4
+
+Please enter the amount: 200
+AMOUNT(200.2) DESC(Monthly electric, water and gas)
+AMOUNT(1200) DESC(Rent)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 4
+
+Please enter the amount: 1000
+AMOUNT(1200) DESC(Rent)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 2
+
+Please enter the description for the expense: Home repair and improvement
+Please enter the amount: -1
+Invalid amount. Amount cannot be negative or string. Please try it again.
+Please enter the amount: -100
+Invalid amount. Amount cannot be negative or string. Please try it again.
+Please enter the amount: -1000
+Invalid amount. Amount cannot be negative or string. Please try it again.
+Please enter the amount: 175.75
+AMOUNT(175.75) DESC(Home repair and improvement)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 1
+
+Expenses:
+AMOUNT(45.25) DESC(Monthly telephone and Internet services)
+AMOUNT(200.2) DESC(Monthly electric, water and gas)
+AMOUNT(1200) DESC(Rent)
+AMOUNT(12.9) DESC(Netflix membership)
+AMOUNT(99) DESC(Amazon membership)
+AMOUNT(50) DESC(Monthly gym membership)
+AMOUNT(175.75) DESC(Home repair and improvement)
+
+Expense Tracking Menu:
+  1. show all
+  2. spend
+  3. search expenses containing this string
+  4. search expenses with greater than or equal to this amount
+  5. exit
+Enter your option: 5
+
+Thank you for using MyExpenses program.
