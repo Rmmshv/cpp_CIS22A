@@ -1,6 +1,4 @@
-# Cpp-deAnzaCIS22A
 
-cis22a C++
-Spring quarter.
+Beginning Programming Methodologies in C++
 
-My solutions for the assignments.
+My solutions for the assignments, Spring quarter
